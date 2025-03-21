@@ -7,65 +7,94 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f5e6d3;
+            color: #333;
             margin: 0;
             padding: 0;
-            background-color: #F5E8D9; /* Cream background */
-            color: #333;
             text-align: center;
         }
         .container {
             max-width: 900px;
             margin: 50px auto;
-            padding: 30px;
             background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            color: #D72638; /* Bold Red */
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-        h2 {
-            font-size: 1.5rem;
-            margin-bottom: 20px;
+        .hero {
+            font-size: 2em;
+            color: #c0392b;
+            font-weight: bold;
         }
         .cta {
-            background-color: #D72638;
+            display: inline-block;
+            background-color: #c0392b;
             color: white;
-            padding: 12px 25px;
-            font-size: 1.2rem;
+            padding: 15px 25px;
             border-radius: 5px;
             text-decoration: none;
-            display: inline-block;
+            font-weight: bold;
             margin-top: 20px;
         }
         .cta:hover {
-            background-color: #B71C30;
+            background-color: #a52a2a;
         }
-        .logo {
-            max-width: 200px;
-            margin-bottom: 20px;
+        .section {
+            margin: 50px 0;
         }
-        .socials img {
-            width: 40px;
+        .section h2 {
+            color: #c0392b;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 250px;
             margin: 10px;
+            border-radius: 5px;
+        }
+        .testimonials {
+            font-style: italic;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="your-logo-url.png" alt="Purrchitecture Logo" class="logo">
-        <h1>Welcome to Purrchitecture</h1>
-        <h2>Innovative Cat Structures for Modern Homes</h2>
-        <p>Custom-designed, wall-mounted, and under-stair cat structures that seamlessly blend into your home’s design.</p>
-        <a href="#" class="cta">Sign Up for Updates</a>
-        <div class="socials">
-            <img src="instagram-icon.png" alt="Instagram">
-            <img src="tiktok-icon.png" alt="TikTok">
-        </div>
+        <h1 class="hero">Welcome to Purrchitecture</h1>
+        <p>Innovative Cat Structures for Modern Homes</p>
+        <a href="#signup" class="cta">Sign Up for Updates</a>
+    </div>
+    
+    <div class="container section">
+        <h2>About Us</h2>
+        <p>Purrchitecture is dedicated to designing stylish, functional, and space-saving cat structures that seamlessly blend into your home.</p>
+    </div>
+    
+    <div class="container section">
+        <h2>How It Works</h2>
+        <p>Choose from pre-made designs or customize your own. We offer full installation or DIY kits!</p>
+    </div>
+    
+    <div class="container section gallery">
+        <h2>Our Designs</h2>
+        <img src="cat_structure1.jpg" alt="Cat Structure 1">
+        <img src="cat_structure2.jpg" alt="Cat Structure 2">
+    </div>
+    
+    <div class="container section testimonials">
+        <h2>What Our Customers Say</h2>
+        <p>"My cat absolutely loves the new climbing wall!" - Sarah K.</p>
+    </div>
+    
+    <div class="container section">
+        <h2>Follow Us</h2>
+        <p>📷 <a href="#">Instagram</a> 🎵 <a href="#">TikTok</a></p>
+    </div>
+    
+    <div class="container section">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out at <a href="mailto:your@email.com">your@email.com</a></p>
     </div>
 </body>
 </html>
+
 
 
